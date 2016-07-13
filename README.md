@@ -36,7 +36,7 @@ Click on the `_config.yml` file then hit the 🖊 icon to edit the file in your 
 If you can't find it, try a URI like `https://github.com/<USERNAME>/<USERNAME>.github.io/blob/master/_config.yml`.
 
 This file is a [YAML](http://www.yaml.org/start.html) file but hopefully isn't too foreign.
-You can change anything you want, but the following lines are a good start:
+You can change anything you want, but the following lines in green (you'll notice what I changed them from and too in this "diff" of the file) are a good start:p
 
 ![changes you might wish to make to your config](https://cloud.githubusercontent.com/assets/203683/16789111/e2c0595c-4867-11e6-9f93-783e919b22ed.png)
 
@@ -75,7 +75,7 @@ title: The title of my post. What someone will see on the main page or on the po
 
 A nice series of words about things. Like cats.
 
-![Crazy peple and cat aerobics gif](http://i.giphy.com/3Nt6YdNgp21UI.gif)
+![Crazy people and cat aerobics gif](http://i.giphy.com/3Nt6YdNgp21UI.gif)
 ```
 
 Commit your changes. And hold on tight...
