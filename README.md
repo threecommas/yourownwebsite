@@ -1,6 +1,6 @@
 # Achieve fame and glory, expand your personal brand, and live your wildest dreams by building a free GitHub powered website!
 
-_Based on [@barryclark's Jekyll Now](https://github.com/barryclark/jekyll-now) repository and awesome [article on Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)._
+_Based on [@barryclark's Jekyll Now](https://github.com/barryclark/jekyll-now) repository and awesome [article on Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). And this [excellent presentation introducing git and Github pages](http://slides.com/alexandraulsh/build-your-own-website-with-cloud9-and-github-pages-1#/) from [@AlexUlsh](https://twitter.com/AlexUlsh)._
 
 You don't have your own website? 😱
 
