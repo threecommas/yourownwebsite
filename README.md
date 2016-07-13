@@ -135,5 +135,11 @@ Excellent question.
 * Yes! And fast. These sites are usually considered "static websites" which means their content only changes as fast as you can type or edit a `.md` file.
 * This article on [why static website generators - like Jekyll - are the next big thing](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) highlights the benefits of building your site this way.
 
+### This is too much hacking!
+
+* Agreed. There's a lot of moving parts here and there are some options that might make life easier.
+* [Wordpress](https://wordpress.com/) is one of the most popular options for making your own website and they'll even host it for free.
+* [Squarespace](https://www.squarespace.com/websites/) is a really nice way to do it, too. And their simplest option is $5/mo.
+* If you don't want to mess with git, [Pancake](https://www.pancake.io/) will take similarly formatted Markdown files and turn them into HTML for you via Dropbox. It's still a little fiddly, but might be a fun option.
 
 
