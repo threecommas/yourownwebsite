@@ -33,9 +33,10 @@ We need to edit a file so Github knows to rebuild our site.
 
 The best one to start with involves the configuration of your new site - the name, description, etc.
 Click on the `_config.yml` file then hit the 🖊 icon to edit the file in your browser.
-`https://github.com/<USERNAME>/<USERNAME>.github.io/blob/master/_config.yml`
+If you can't find it, try a URI like `https://github.com/<USERNAME>/<USERNAME>.github.io/blob/master/_config.yml`.
 
-You can change anything you want, but the following are a good start:
+This file is a [YAML](http://www.yaml.org/start.html) file but hopefully isn't too foreign.
+You can change anything you want, but the following lines are a good start:
 
 ![changes you might wish to make to your config](https://cloud.githubusercontent.com/assets/203683/16789111/e2c0595c-4867-11e6-9f93-783e919b22ed.png)
 
@@ -65,8 +66,6 @@ You can also start by editing the default **Hello World** post.
 ![Well done, Jeremiah Johnson](http://i.giphy.com/12OTxgtyHG11QI.gif)
 
 ## Now what?
-
-Write blog posts, post interesting links, share it with your friends and family so you can...
 
 #### Achieve fame and glory
 
