@@ -46,13 +46,11 @@ I like to write **Why** I made the change in the subject line and more info on *
 
 ![Screenshot of the UI when you are about to commit a change](https://cloud.githubusercontent.com/assets/203683/16789146/4acfdde2-4868-11e6-81ac-dbf3db1f6bbb.png)
 
-_For more info on what is happening behind the scenes, check out [Github's own documentation on Pages](https://pages.github.com/) and [more about Jekyll, the open source "static site generator"](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) that makes this all possible._
-
 ## 5. Create a new post
 
-We're almost there. Now we just need some sweet, sweet content!
+We're almost done. We just need some sweet, sweet content!
 
-### What are these `.md` files?
+### _What are these `.md` files?_
 Posts (and most other files in our new repository) are written in Markdown, a lightweight text markup format (get it?). Hence the `.md` extension on these files. Our mostly plain text looking files will be turned into HTML that way.
 [Github's guide to markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) is a good resource.
 
@@ -60,7 +58,7 @@ Posts (and most other files in our new repository) are written in Markdown, a li
 Create a file in the `_posts` folder. It needs a specific name - `YYYY-MM-DD-<TITLE-OF-POST-GOES-HERE.md>`.
 You can also start by editing the default **Hello World** post.
 
-#### 6. Check out your site at `https://<YOUR_USERNAME>.github.io`!
+## 6. Check out your site at `https://<YOUR_USERNAME>.github.io`!
 
 **Congratulations, you are awesome!**
 
@@ -86,12 +84,36 @@ Write blog posts, post interesting links, share it with your friends and family 
 
 Excellent question.
 
-* If you want to learn more about your options using Github, explore [this document on different ways to setup Github pages ](https://help.github.com/articles/user-organization-and-project-pages/). For example, you can create an organization and host a site that way. Say you volunteer at a local food kitchen, you can create an organization in Github called **LocalFoodSharers** and host a site under their name (versus using your own username).
+### Want to know more about your options using Github?
+* Explore [this document on different ways to setup Github pages ](https://help.github.com/articles/user-organization-and-project-pages/). For example, you can create an organization and host a site that way. Say you volunteer at a local food kitchen, you can create an organization in Github called **LocalFoodSharers** and host a site under their name (versus using your own username).
 * Or, take a look at Github's info on [customizing Github pages](https://help.github.com/categories/customizing-github-pages/).
+
+### Understanding what is going on under the hood and customizing your site
+
 * If you want to tweak the look of your site, or what it can do, you'll want to learn more about Jekyll. Check out [Jekyll Casts](http://jekyll.tips/) - "Step by step tutorials and screencasts covering everything you need to know about Jekyll."
 * Speaking of, you'll probably [want to start running Jekyll locally](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) so that you don't have to edit files directly using the Github web app.
+* [This list of sites built with Jekyll](https://github.com/jekyll/jekyll/wiki/Sites) is great for looking at what is possible.
+
+### What is git, anyway?
 * You'll need to interact with Github using git, the version control system. [This course from CodeSchool covers the basics](https://www.codeschool.com/courses/try-git) in a fun fashion. Seriously, CodeSchool does a great job at breaking down information.
-* Ask! [Post a question here](https://github.com/threecommas/yourownwebsite/issues) or shoot me an email. Ask your favorite developer friend for help or to find out why something works the way it does.
+
+### I wanted `<AWESOME_DOMAIN_NAME>.com`, not this `*.github.io` thing?!??!
+* This gets a little tricky but if you've gotten this far, you're going to crush it.
+* If you need to buy a domain, Colorado's own [name.com](https://name.com) is a good one. So is [Hover](https://hover.com).
+
+1. [Add a custom domain to your Github pages site](https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/).
+2. Follow this guide on [setting up an "apex" domains](https://help.github.com/articles/setting-up-an-apex-domain/). You'll need to interact with your domain provider as part of this. Some providers [have really good guides on how to do this](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages), like that one from [namecheap.com](namecheap.com).
+3. Be patient. It can take time for DNS settings to take hold around the world/Internet.
+
+### I'm stuck. Help!?
+
+* Just ask! [Post a question here](https://github.com/threecommas/yourownwebsite/issues) or shoot me an email. Ask your favorite developer friend for help or to find out why something works the way it does.
+* Check [Meetup](meetup.com) for a local users group that may have covered Jekyll or may be hosting an event in the near future.
+
+### So, this is just plain HTML? Isn't that boring?
+
+* Yes! And fast. These sites are usually considered "static websites" which means their content only changes as fast as you can type or edit a `.md` file.
+* This article on [why static website generators - like Jekyll - are the next big thing](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) highlights the benefits of building your site this way.
 
 
 
