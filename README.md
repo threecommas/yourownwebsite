@@ -2,15 +2,14 @@ Building a Github Powered Website
 
 ## Create Account
 
-[github.com/join](github.com/join).
+### [github.com/join](github.com/join)
 
-If a brand new account, verify your email with github.
+1. If a brand new account, verify your email with github.
+   If an existing account, create a repo called <YOUR_USERNAME>.github.io
 
-If an existing account, create a repo called <USERNAME>.github.io
+2. Copy the [Jekyll Now](https://github.com/barryclark/jekyll-now) repo. In Github terms a copy is called a 'fork' so you need to fork the repo:
 
-2. Copy the [Jekyll Now](https://github.com/barryclark/jekyll-now) repo. In Github terms a copy is called a 'fork' so you need to fork the repo.
-
-https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2014/07/step1.gif
+![funny image?](https://media-mediatemple.netdna-ssl.com/wp-content/uploads/2014/07/step1.gif)
 
 3. Rename the repo by clicking on **Settings**.
 
