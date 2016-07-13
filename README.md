@@ -59,6 +59,27 @@ Posts (and most other files in our new repository) are written in Markdown, a li
 Create a file in the `_posts` folder. It needs a specific name - `YYYY-MM-DD-<TITLE-OF-POST-GOES-HERE.md>`.
 You can also start by editing the default **Hello World** post.
 
+If you start from scratch, don't forget what is called the ["Front Matter"](https://jekyllrb.com/docs/frontmatter/).
+That is the way to tell Github (and more specifically, [Jekyll](https://jekyllrb.com)) how to process your file.
+
+The easiest thing is to look at the default **Hello World** post/file and copy the contents into ours. You'll need to choose the **Raw** version (look for the button marked **Raw** near the pen icon) when looking at the **Hello World** post within Github to see the exact formatting. Or you can consult the **Front Matter** link above.
+
+Here's an example of a post:
+```jekyll
+---
+layout: post
+title: The title of my post. What someone will see on the main page or on the post.
+---
+
+## Awesome Headline Goes Here
+
+A nice series of words about things. Like cats.
+
+![Crazy peple and cat aerobics gif](http://i.giphy.com/3Nt6YdNgp21UI.gif)
+```
+
+Commit your changes. And hold on tight...
+
 ## 6. Check out your site at `https://<YOUR_USERNAME>.github.io`!
 
 **Congratulations, you are awesome!**
